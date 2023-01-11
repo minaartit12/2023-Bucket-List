@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <!-- bucket: postit -->
+    <style>
+        body {padding: 1rem; }
+
+        @font-face {
+            font-family: 'GangwonEduPowerExtraBoldA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'NanumSquareNeo-Variable';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .title {
+            font-family: 'GangwonEduPowerExtraBoldA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+            background-color: rgb(255, 39, 20);
+            font-size: 25px;
+            padding: 15px 15px 7px;
+            border-radius: 10px;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-family: 'GangwonEduPowerExtraBoldA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-size: 15px;
+            margin: auto;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1-t3 {
+            font-family: 'NanumSquareNeo-Variable';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2-t3 {
+            font-family: 'NanumSquareNeo-Variable';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1-t5 {
+            font-family: 'NanumSquareNeo-Variable';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-item {
+            padding: 10px;
+            height: 140px;
+        }
+
+        .grid-container {
+            max-width: 1000px;
+            margin: 0px 20px;
+            display: grid;
+            grid-gap: 10px;
+            justify-items: center;
+        }
+
+        @media (min-width: 600px) {
+            .grid-container { grid-template-columns: repeat(4, 1fr); }
+        } 
+
+    </style>
+    <link rel="stylesheet" type="text/css"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg center">
+    <h1 class="title">2023 내 신년계획</h1>
+    <p class="msg">🐇 계묘년 부지런하고 알차게 보내자! 🐇</p>
+    <div class="grid-container">
+        <div class="grid-item bucket img1-t3 center">부수익을 위한 활동 기획 및 실천</div>
+        <div class="grid-item bucket img2-t3 center done">독서 습관 기르기 with 밀리의 서재📖</div>
+        <div class="grid-item bucket img1-t3 center">쉐어하우스/룸메이트 자취</div>
+        <div class="grid-item bucket img2-t3 center">예술 관련 소셜 커뮤니티 네트워킹</div>
+        <div class="grid-item bucket img2-t3 center">요일에 상관없이 주 3회 유산소, 근력 운동하기</div>
+        <div class="grid-item bucket img1-t3 center done">(4주) 매일 오전마다 비지니스 영어 챌린지</div>
+        <div class="grid-item bucket img2-t3 center">디깅 상반기 런칭</div>
+        <div class="grid-item bucket img1-t3 center">저축하는 습관 up + 목표시드머니 모으기 </div>
+    </div>
+
+</body>
+
+</html>
